@@ -1,6 +1,4 @@
 .DS_Store
-*.txt
-*.localized
-School Related/
-Extra Study/
-APSA/
+.localized
+__pycache__/
+*.log
