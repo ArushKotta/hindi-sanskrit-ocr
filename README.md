@@ -17,9 +17,11 @@ Extracts text from scanned Hindi/Sanskrit PDFs using Tesseract OCR.
 ## Install dependencies:
 ```bash
 pip install pytesseract pdf2image
-
+```
 ## Usage:
+```bash
 python hindi_sanskrit_ocr.py
+```
 
 ## You'll be prompted to enter:
 Input PDF filename
