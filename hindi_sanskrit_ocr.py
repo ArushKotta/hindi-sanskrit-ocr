@@ -12,7 +12,7 @@ def ocr_pdf(pdf_path, output_txt_path, dpi=300, lang='hin+san'):
     os.makedirs(temp_dir, exist_ok=True)
 
     print("Converting PDF pages to images...")
-    pages = convert_from_path(pdf_path, dpi=dpi, poppler_path="/opt/homebrew/bin"
+    pages = convert_from_path(pdf_path, dpi=dpi, poppler_path="/opt/homebrew/bin")
 
     image_paths = []
     for i, page in enumerate(pages):
